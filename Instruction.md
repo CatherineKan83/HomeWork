@@ -24,6 +24,17 @@
 
 ![git_link](2_git_fetch_pull_pus.png)
 
+Вам предложат выбрать одну из трех ссылок: для протоколов https и ssh и для клиента GitHub на компьютер. Вот примеры этих трех ссылок для репозитория geometric_lib известного вам по практическим занятиям этого курса:
+
+    HTTPS-ссылка: https://github.com/smartiqaorg/geometric_lib.git
+    SSH-ссылка: git@github.com:smartiqaorg/geometric_lib.git
+    GitHub CLI ссылка: gh repo clone smartiqaorg/geometric_lib
+
+
+# Отключение удаленного репозитория от локального. Команда git remote remove.
+Иногда возникает необходимость забыть удаленный репозиторий. Для этого нужно воспользоваться командой 
+>***git remote remove*** 
+
 Также есть данные команды для работы с удалённым репозиторием:
 
     git push origin - Замерджить все ветки локального репозитория на удаленный репозиторий 
